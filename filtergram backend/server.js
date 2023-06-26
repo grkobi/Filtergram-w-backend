@@ -68,6 +68,7 @@ app.get('/api/story', (req, res) => {
         })
         .catch(err => {
             console.log('Cannot load stories')
+            console.error(err)
             res.status(400).send('Cannot load stories')
         })
 })
@@ -100,13 +101,6 @@ app.put('/api/story', (req, res) => {
     // if (!loggedinUser) return res.status(401).send('Cannot update car')
 
     const story = req.body
-    // const car = {
-    //     _id,
-    //     vendor,
-    //     speed: +speed,
-    //     price: +price,
-    //     owner
-    // }
     storyService.save(story)
         .then((savedStory) => {
             res.send(savedStory)
@@ -118,10 +112,10 @@ app.put('/api/story', (req, res) => {
 })
 
 // Read - getById
-app.get('/api/car/:carId', (req, res) => {
-    const { carId } = req.params
-    storyService.get(carId)
-        .then(car => res.send(car))
+app.get('/api/story/:storyId', (req, res) => {
+    const { storyId } = req.params
+    storyService.get(storyId)
+        .then(story => res.send(story))
         .catch(err => res.status(403).send(err))
 })
 

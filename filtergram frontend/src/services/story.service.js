@@ -4,10 +4,10 @@ import { STORAGE_KEY_LOGGEDIN_USER, userService } from './user.service.js'
 import { utilService } from './util.service.js'
 import { httpService } from './http.service.js'
 
-const STORAGE_KEY = 'story'
+// const STORAGE_KEY = 'story'
 const BASE_URL = 'story/'
 
-let gStories
+// let gStories
 // _createStories() 
 
 export const storyService = {

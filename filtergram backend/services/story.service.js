@@ -1,32 +1,61 @@
+const dbService = require('./db.service')
+const ObjectId = require('mongodb').ObjectId
 const fs = require('fs')
 var stories = require('../data/story.json')
 
-function query(filterBy = {}) {
-    let storiesToDisplay = stories
-    // if (filterBy.txt) {
-    //     const regExp = new RegExp(filterBy.txt, 'i')
-    //     storiesToDisplay = storiesToDisplay.filter(story => regExp.test(story.txt))
-    // }
+const COLLECTION_NAME = 'story'
 
-    return Promise.resolve(storiesToDisplay)
+async function query(filterBy = {}) {
+    try {
+        // const criteria = _buildCriteria(filterBy)
+        const collection = await dbService.getCollection(COLLECTION_NAME)
+        console.log('collection', collection)
+        const stories = await collection.find().toArray()
+
+        return stories
+    } catch (err) {
+        console.error('cannot find stories', err)
+        throw err
+    }
 }
 
-function get(carId) {
-    const car = cars.find(car => car._id === carId)
-    if (!car) return Promise.reject('Car not found!')
-    return Promise.resolve(car)
+// function query(filterBy = {}) {
+//     let storiesToDisplay = stories
+//     // if (filterBy.txt) {
+//     //     const regExp = new RegExp(filterBy.txt, 'i')
+//     //     storiesToDisplay = storiesToDisplay.filter(story => regExp.test(story.txt))
+//     // }
+
+//     return Promise.resolve(storiesToDisplay)
+// }
+
+function get(storyId) {
+    const story = stories.find(story => story._id === storyId)
+    if (!story) return Promise.reject('story not found!')
+    return Promise.resolve(story)
 }
 
-function remove(storyId) {
-    console.log('storyId', storyId)
-    const idx = stories.findIndex(story => story._id === storyId)
-    if (idx === -1) return Promise.reject('No Such story')
-    const story = stories[idx]
-    // if (story.by._id !== loggedinUser._id) return Promise.reject('Not your story')
-    stories.splice(idx, 1)
-    return _saveStoriesToFile()
-
+async function remove(storyId) {
+    try {
+        const collection = await dbService.getCollection(COLLECTION_NAME)
+        await collection.deleteOne({ _id: storyId })
+        return storyId
+    } catch (err) {
+        console.error(`cannot remove story ${storyId}`, err)
+        throw err
+    }
 }
+
+// function remove(storyId) {
+//     console.log('storyId', storyId)
+//     const idx = stories.findIndex(story => story._id === storyId)
+//     if (idx === -1) return Promise.reject('No Such story')
+//     const story = stories[idx]
+//     // if (story.by._id !== loggedinUser._id) return Promise.reject('Not your story')
+//     stories.splice(idx, 1)
+//     return _saveStoriesToFile()
+
+// }
 
 
 function save(story) {

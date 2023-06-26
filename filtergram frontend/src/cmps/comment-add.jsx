@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react"
 import { useSelector } from "react-redux"
-import { storyService } from "../services/story.service.local"
+import { storyService } from "../services/story.service"
 import { updateStory } from "../store/story.actions"
 
 

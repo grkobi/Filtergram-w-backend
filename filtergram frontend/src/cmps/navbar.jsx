@@ -1,9 +1,7 @@
 import { NavLink, useNavigate } from "react-router-dom"
-import { useSelector } from 'react-redux'
 import { searchIcon, exploreIcon, homeIcon, reelsIcon, sendIcon, likeIcon, createIcon, moreIcon } from './icons'
-import { storyService } from "../services/story.service.local"
-import { userService } from "../services/user.service";
-import { useState, useEffect } from 'react'
+
+import { useState } from 'react'
 import filtergramLogo from '../assets/img/filtergramLogo.png'
 import { logout } from "../store/user.actions";
 

@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react"
-import { storyService } from "../services/story.service.local"
+import { storyService } from "../services/story.service"
 import { useParams } from "react-router-dom"
 import { ImgUploader } from "./img-uploader"
 import { addStory } from "../store/story.actions"

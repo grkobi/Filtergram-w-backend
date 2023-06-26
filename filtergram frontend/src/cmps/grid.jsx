@@ -3,7 +3,7 @@ import { loadUsers } from "../store/user.actions"
 import { useEffect } from "react"
 import { commentIcon, likeIcon } from "./icons"
 
-import { storyService } from "../services/story.service.local"
+import { storyService } from "../services/story.service"
 // const stories = useSelector(storeState => storeState.storyModule.stories)
 
 export function PreviewGrid({ stories }) {

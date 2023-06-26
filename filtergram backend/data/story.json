@@ -1,21 +1,22 @@
 [
   {
     "txt": "",
-    "createdAt": 1687793457820,
+    "createdAt": 1687814170759,
     "img": {
-      "url": "https://res.cloudinary.com/duxmabf4n/image/upload/w_494,h_550,c_fill/v1687793456/kv5xr5qnq2vhsusnrryt.png",
+      "url": "https://res.cloudinary.com/duxmabf4n/image/upload/w_494,h_550,c_fill/v1687814168/xyr2egkzewuys0aylcne.png",
       "style": {
         "filter": "none"
       }
     },
     "by": {
-      "fullName": "dsfd",
-      "userName": "dsfsdf",
-      "password": "sdsfsd",
+      "_id": "Guest",
+      "fullName": "David Goggins",
+      "userName": "davidg",
+      "password": "",
       "mail": "",
       "userBio": "",
       "userImg": {
-        "url": "https://res.cloudinary.com/duxmabf4n/image/upload/v1686594941/p5igjah3vvmmfpdhs2e5.jpg",
+        "url": "https://res.cloudinary.com/duxmabf4n/image/upload/v1686570314/wftqmpysimoxouukkpxj.jpg",
         "style": {
           "filter": "none"
         }
@@ -26,96 +27,19 @@
       "followers": [],
       "savedStories": [],
       "taggedStories": [],
-      "userStories": [],
-      "_id": "5zgj99Iya"
+      "userStories": [
+        "PRgxvCtZJ",
+        "xBZoQCPXU",
+        "vrXTq97Uo",
+        "OOszq1f1W"
+      ]
     },
     "loc": {},
     "taggedUsers": [],
     "comments": [],
-    "likedBy": [
-      {
-        "fullName": "dsfd",
-        "userName": "dsfsdf",
-        "password": "sdsfsd",
-        "mail": "",
-        "userBio": "",
-        "userImg": {
-          "url": "https://res.cloudinary.com/duxmabf4n/image/upload/v1686594941/p5igjah3vvmmfpdhs2e5.jpg",
-          "style": {
-            "filter": "none"
-          }
-        },
-        "followingId": [],
-        "followersId": [],
-        "following": [],
-        "followers": [],
-        "savedStories": [],
-        "taggedStories": [],
-        "userStories": [],
-        "_id": "5zgj99Iya"
-      }
-    ],
+    "likedBy": [],
     "hashTags": [],
-    "_id": "Wxw1I"
-  },
-  {
-    "txt": "",
-    "createdAt": 1687793445886,
-    "img": {
-      "url": "https://res.cloudinary.com/duxmabf4n/image/upload/w_494,h_550,c_fill/v1687793444/zpqoq884wd0e0wonxwu5.png",
-      "style": {
-        "filter": "none"
-      }
-    },
-    "by": {
-      "fullName": "dsfd",
-      "userName": "dsfsdf",
-      "password": "sdsfsd",
-      "mail": "",
-      "userBio": "",
-      "userImg": {
-        "url": "https://res.cloudinary.com/duxmabf4n/image/upload/v1686594941/p5igjah3vvmmfpdhs2e5.jpg",
-        "style": {
-          "filter": "none"
-        }
-      },
-      "followingId": [],
-      "followersId": [],
-      "following": [],
-      "followers": [],
-      "savedStories": [],
-      "taggedStories": [],
-      "userStories": [],
-      "_id": "5zgj99Iya"
-    },
-    "loc": {},
-    "taggedUsers": [],
-    "comments": [],
-    "likedBy": [
-      {
-        "fullName": "dsfd",
-        "userName": "dsfsdf",
-        "password": "sdsfsd",
-        "mail": "",
-        "userBio": "",
-        "userImg": {
-          "url": "https://res.cloudinary.com/duxmabf4n/image/upload/v1686594941/p5igjah3vvmmfpdhs2e5.jpg",
-          "style": {
-            "filter": "none"
-          }
-        },
-        "followingId": [],
-        "followersId": [],
-        "following": [],
-        "followers": [],
-        "savedStories": [],
-        "taggedStories": [],
-        "userStories": [],
-        "_id": "5zgj99Iya"
-      }
-    ],
-    "hashTags": [],
-    "_id": "DtFEV"
+    "_id": "fhZeL"
   },
   {
     "txt": "El Lorem Ipsum fue concebido como un texto de relleno, formateado de una cierta manera para permitir la presentación de elementos gráficos en documentos, sin necesidad de una copia formal. El uso de Lorem Ipsum permite a los diseñadores reunir los diseños y la forma del contenido antes de que el contenido se haya creado, dando al diseño y al proceso de producción más libertad.  Se cree ampliamente que la historia de Lorem Ipsum se origina con Cicerón en el siglo I aC y su texto De Finibus bonorum et malorum. Esta obra filosófica, también conocida como En los extremos del bien y del mal, se dividió en cinco libros. El Lorem Ipsum que conocemos hoy se deriva de partes del primer libro Liber Primus y su discusión sobre el hedonismo, cuyas palabras habían sido alteradas, añadidas y eliminadas para convertirlas en un latín sin sentido e impropio. No se sabe exactamente",
@@ -180,213 +104,6 @@
     ],
     "likedBy": [
       {
-        "_id": "Guest",
-        "fullName": "David Goggins",
-        "userName": "davidg",
-        "password": "",
-        "mail": "",
-        "userBio": "",
-        "userImg": {
-          "url": "https://res.cloudinary.com/duxmabf4n/image/upload/v1686570314/wftqmpysimoxouukkpxj.jpg",
-          "style": {
-            "filter": "none"
-          }
-        },
-        "followingId": [],
-        "followersId": [],
-        "following": [],
-        "followers": [],
-        "savedStories": [],
-        "taggedStories": [],
-        "userStories": [
-          {
-            "by": {
-              "followers": [],
-              "followersId": [],
-              "following": [],
-              "followingId": [],
-              "fullName": "Irene Radvogin",
-              "mail": "IreneRadvogin@gmail.com",
-              "password": "mukmuk",
-              "savedStories": [],
-              "taggedStories": [],
-              "userBio": "",
-              "userImg": {
-                "url": "https://res.cloudinary.com/duxmabf4n/image/upload/v1685950112/eiqrhchqoliytvlhd60w.jpg",
-                "style": {
-                  "filter": "none"
-                }
-              },
-              "userName": "irene_rad",
-              "userStories": [],
-              "_id": "u101"
-            },
-            "comments": [],
-            "createdAt": 1686119781486,
-            "hashTags": [],
-            "img": {
-              "url": "https://res.cloudinary.com/duxmabf4n/image/upload/v1685949752/mvvh6gxmpshxuxit9bth.jpg",
-              "style": {
-                "filter": "none"
-              }
-            },
-            "likedBy": [],
-            "loc": {},
-            "taggedUsers": [],
-            "txt": "yummy!!",
-            "_id": "s101"
-          },
-          {
-            "by": {
-              "followers": [],
-              "followersId": [],
-              "following": [],
-              "followingId": [],
-              "fullName": "Irene Radvogin",
-              "mail": "IreneRadvogin@gmail.com",
-              "password": "mukmuk",
-              "savedStories": [],
-              "taggedStories": [],
-              "userBio": "",
-              "userImg": {
-                "url": "https://res.cloudinary.com/duxmabf4n/image/upload/v1685950112/eiqrhchqoliytvlhd60w.jpg",
-                "style": {
-                  "filter": "none"
-                }
-              },
-              "userName": "irene_rad",
-              "userStories": [],
-              "_id": "u101"
-            },
-            "comments": [],
-            "createdAt": 1686119781486,
-            "hashTags": [],
-            "img": {
-              "url": "https://res.cloudinary.com/duxmabf4n/image/upload/v1685949752/mvvh6gxmpshxuxit9bth.jpg",
-              "style": {
-                "filter": "none"
-              }
-            },
-            "likedBy": [],
-            "loc": {},
-            "taggedUsers": [],
-            "txt": "yummy!!",
-            "_id": "s101"
-          },
-          {
-            "by": {
-              "followers": [],
-              "followersId": [],
-              "following": [],
-              "followingId": [],
-              "fullName": "Irene Radvogin",
-              "mail": "IreneRadvogin@gmail.com",
-              "password": "mukmuk",
-              "savedStories": [],
-              "taggedStories": [],
-              "userBio": "",
-              "userImg": {
-                "url": "https://res.cloudinary.com/duxmabf4n/image/upload/v1685950112/eiqrhchqoliytvlhd60w.jpg",
-                "style": {
-                  "filter": "none"
-                }
-              },
-              "userName": "irene_rad",
-              "userStories": [],
-              "_id": "u101"
-            },
-            "comments": [],
-            "createdAt": 1686119781486,
-            "hashTags": [],
-            "img": {
-              "url": "https://res.cloudinary.com/duxmabf4n/image/upload/v1685949752/mvvh6gxmpshxuxit9bth.jpg",
-              "style": {
-                "filter": "none"
-              }
-            },
-            "likedBy": [],
-            "loc": {},
-            "taggedUsers": [],
-            "txt": "yummy!!",
-            "_id": "s101"
-          },
-          {
-            "by": {
-              "followers": [],
-              "followersId": [],
-              "following": [],
-              "followingId": [],
-              "fullName": "Irene Radvogin",
-              "mail": "IreneRadvogin@gmail.com",
-              "password": "mukmuk",
-              "savedStories": [],
-              "taggedStories": [],
-              "userBio": "",
-              "userImg": {
-                "url": "https://res.cloudinary.com/duxmabf4n/image/upload/v1685950112/eiqrhchqoliytvlhd60w.jpg",
-                "style": {
-                  "filter": "none"
-                }
-              },
-              "userName": "irene_rad",
-              "userStories": [],
-              "_id": "u101"
-            },
-            "comments": [],
-            "createdAt": 1686119781486,
-            "hashTags": [],
-            "img": {
-              "url": "https://res.cloudinary.com/duxmabf4n/image/upload/v1685949752/mvvh6gxmpshxuxit9bth.jpg",
-              "style": {
-                "filter": "none"
-              }
-            },
-            "likedBy": [],
-            "loc": {},
-            "taggedUsers": [],
-            "txt": "yummy!!",
-            "_id": "s101"
-          },
-          {
-            "by": {
-              "followers": [],
-              "followersId": [],
-              "following": [],
-              "followingId": [],
-              "fullName": "Irene Radvogin",
-              "mail": "IreneRadvogin@gmail.com",
-              "password": "mukmuk",
-              "savedStories": [],
-              "taggedStories": [],
-              "userBio": "",
-              "userImg": {
-                "url": "https://res.cloudinary.com/duxmabf4n/image/upload/v1685950112/eiqrhchqoliytvlhd60w.jpg",
-                "style": {
-                  "filter": "none"
-                }
-              },
-              "userName": "irene_rad",
-              "userStories": [],
-              "_id": "u101"
-            },
-            "comments": [],
-            "createdAt": 1686119781486,
-            "hashTags": [],
-            "img": {
-              "url": "https://res.cloudinary.com/duxmabf4n/image/upload/v1685949752/mvvh6gxmpshxuxit9bth.jpg",
-              "style": {
-                "filter": "none"
-              }
-            },
-            "likedBy": [],
-            "loc": {},
-            "taggedUsers": [],
-            "txt": "yummy!!",
-            "_id": "s101"
-          }
-        ]
-      },
-      {
         "_id": "u10Z",
         "fullName": "Dimitry Valdes",
         "userName": "Dimuchka",
@@ -406,6 +123,32 @@
         "savedStories": [],
         "taggedStories": [],
         "userStories": []
+      },
+      {
+        "_id": "Guest",
+        "fullName": "David Goggins",
+        "userName": "davidg",
+        "password": "",
+        "mail": "",
+        "userBio": "",
+        "userImg": {
+          "url": "https://res.cloudinary.com/duxmabf4n/image/upload/v1686570314/wftqmpysimoxouukkpxj.jpg",
+          "style": {
+            "filter": "none"
+          }
+        },
+        "followingId": [],
+        "followersId": [],
+        "following": [],
+        "followers": [],
+        "savedStories": [],
+        "taggedStories": [],
+        "userStories": [
+          "PRgxvCtZJ",
+          "xBZoQCPXU",
+          "vrXTq97Uo",
+          "OOszq1f1W"
+        ]
       }
     ],
     "hashTags": [],
@@ -748,191 +491,10 @@
         "savedStories": [],
         "taggedStories": [],
         "userStories": [
-          {
-            "by": {
-              "followers": [],
-              "followersId": [],
-              "following": [],
-              "followingId": [],
-              "fullName": "Irene Radvogin",
-              "mail": "IreneRadvogin@gmail.com",
-              "password": "mukmuk",
-              "savedStories": [],
-              "taggedStories": [],
-              "userBio": "",
-              "userImg": {
-                "url": "https://res.cloudinary.com/duxmabf4n/image/upload/v1685950112/eiqrhchqoliytvlhd60w.jpg",
-                "style": {
-                  "filter": "none"
-                }
-              },
-              "userName": "irene_rad",
-              "userStories": [],
-              "_id": "u101"
-            },
-            "comments": [],
-            "createdAt": 1686119781486,
-            "hashTags": [],
-            "img": {
-              "url": "https://res.cloudinary.com/duxmabf4n/image/upload/v1685949752/mvvh6gxmpshxuxit9bth.jpg",
-              "style": {
-                "filter": "none"
-              }
-            },
-            "likedBy": [],
-            "loc": {},
-            "taggedUsers": [],
-            "txt": "yummy!!",
-            "_id": "s101"
-          },
-          {
-            "by": {
-              "followers": [],
-              "followersId": [],
-              "following": [],
-              "followingId": [],
-              "fullName": "Irene Radvogin",
-              "mail": "IreneRadvogin@gmail.com",
-              "password": "mukmuk",
-              "savedStories": [],
-              "taggedStories": [],
-              "userBio": "",
-              "userImg": {
-                "url": "https://res.cloudinary.com/duxmabf4n/image/upload/v1685950112/eiqrhchqoliytvlhd60w.jpg",
-                "style": {
-                  "filter": "none"
-                }
-              },
-              "userName": "irene_rad",
-              "userStories": [],
-              "_id": "u101"
-            },
-            "comments": [],
-            "createdAt": 1686119781486,
-            "hashTags": [],
-            "img": {
-              "url": "https://res.cloudinary.com/duxmabf4n/image/upload/v1685949752/mvvh6gxmpshxuxit9bth.jpg",
-              "style": {
-                "filter": "none"
-              }
-            },
-            "likedBy": [],
-            "loc": {},
-            "taggedUsers": [],
-            "txt": "yummy!!",
-            "_id": "s101"
-          },
-          {
-            "by": {
-              "followers": [],
-              "followersId": [],
-              "following": [],
-              "followingId": [],
-              "fullName": "Irene Radvogin",
-              "mail": "IreneRadvogin@gmail.com",
-              "password": "mukmuk",
-              "savedStories": [],
-              "taggedStories": [],
-              "userBio": "",
-              "userImg": {
-                "url": "https://res.cloudinary.com/duxmabf4n/image/upload/v1685950112/eiqrhchqoliytvlhd60w.jpg",
-                "style": {
-                  "filter": "none"
-                }
-              },
-              "userName": "irene_rad",
-              "userStories": [],
-              "_id": "u101"
-            },
-            "comments": [],
-            "createdAt": 1686119781486,
-            "hashTags": [],
-            "img": {
-              "url": "https://res.cloudinary.com/duxmabf4n/image/upload/v1685949752/mvvh6gxmpshxuxit9bth.jpg",
-              "style": {
-                "filter": "none"
-              }
-            },
-            "likedBy": [],
-            "loc": {},
-            "taggedUsers": [],
-            "txt": "yummy!!",
-            "_id": "s101"
-          },
-          {
-            "by": {
-              "followers": [],
-              "followersId": [],
-              "following": [],
-              "followingId": [],
-              "fullName": "Irene Radvogin",
-              "mail": "IreneRadvogin@gmail.com",
-              "password": "mukmuk",
-              "savedStories": [],
-              "taggedStories": [],
-              "userBio": "",
-              "userImg": {
-                "url": "https://res.cloudinary.com/duxmabf4n/image/upload/v1685950112/eiqrhchqoliytvlhd60w.jpg",
-                "style": {
-                  "filter": "none"
-                }
-              },
-              "userName": "irene_rad",
-              "userStories": [],
-              "_id": "u101"
-            },
-            "comments": [],
-            "createdAt": 1686119781486,
-            "hashTags": [],
-            "img": {
-              "url": "https://res.cloudinary.com/duxmabf4n/image/upload/v1685949752/mvvh6gxmpshxuxit9bth.jpg",
-              "style": {
-                "filter": "none"
-              }
-            },
-            "likedBy": [],
-            "loc": {},
-            "taggedUsers": [],
-            "txt": "yummy!!",
-            "_id": "s101"
-          },
-          {
-            "by": {
-              "followers": [],
-              "followersId": [],
-              "following": [],
-              "followingId": [],
-              "fullName": "Irene Radvogin",
-              "mail": "IreneRadvogin@gmail.com",
-              "password": "mukmuk",
-              "savedStories": [],
-              "taggedStories": [],
-              "userBio": "",
-              "userImg": {
-                "url": "https://res.cloudinary.com/duxmabf4n/image/upload/v1685950112/eiqrhchqoliytvlhd60w.jpg",
-                "style": {
-                  "filter": "none"
-                }
-              },
-              "userName": "irene_rad",
-              "userStories": [],
-              "_id": "u101"
-            },
-            "comments": [],
-            "createdAt": 1686119781486,
-            "hashTags": [],
-            "img": {
-              "url": "https://res.cloudinary.com/duxmabf4n/image/upload/v1685949752/mvvh6gxmpshxuxit9bth.jpg",
-              "style": {
-                "filter": "none"
-              }
-            },
-            "likedBy": [],
-            "loc": {},
-            "taggedUsers": [],
-            "txt": "yummy!!",
-            "_id": "s101"
-          }
+          "PRgxvCtZJ",
+          "xBZoQCPXU",
+          "vrXTq97Uo",
+          "OOszq1f1W"
         ]
       }
     ],
@@ -1723,6 +1285,32 @@
             "_id": "s101"
           }
         ]
+      },
+      {
+        "_id": "Guest",
+        "fullName": "David Goggins",
+        "userName": "davidg",
+        "password": "",
+        "mail": "",
+        "userBio": "",
+        "userImg": {
+          "url": "https://res.cloudinary.com/duxmabf4n/image/upload/v1686570314/wftqmpysimoxouukkpxj.jpg",
+          "style": {
+            "filter": "none"
+          }
+        },
+        "followingId": [],
+        "followersId": [],
+        "following": [],
+        "followers": [],
+        "savedStories": [],
+        "taggedStories": [],
+        "userStories": [
+          "PRgxvCtZJ",
+          "xBZoQCPXU",
+          "vrXTq97Uo",
+          "OOszq1f1W"
+        ]
       }
     ],
     "hashTags": [],
@@ -2186,47 +1774,5 @@
     ],
     "hashTags": [],
     "_id": "TgVdqBDXp"
-  },
-  {
-    "txt": "",
-    "createdAt": 1687718003514,
-    "img": {
-      "url": "https://res.cloudinary.com/duxmabf4n/image/upload/w_494,h_550,c_fill/v1687718000/scctc0wp0prqnmc2cn3i.png",
-      "style": {
-        "filter": "none"
-      }
-    },
-    "by": {
-      "_id": "Guest",
-      "fullName": "David Goggins",
-      "userName": "davidg",
-      "password": "",
-      "mail": "",
-      "userBio": "",
-      "userImg": {
-        "url": "https://res.cloudinary.com/duxmabf4n/image/upload/v1686570314/wftqmpysimoxouukkpxj.jpg",
-        "style": {
-          "filter": "none"
-        }
-      },
-      "followingId": [],
-      "followersId": [],
-      "following": [],
-      "followers": [],
-      "savedStories": [],
-      "taggedStories": [],
-      "userStories": [
-        "PRgxvCtZJ",
-        "xBZoQCPXU",
-        "vrXTq97Uo",
-        "OOszq1f1W"
-      ]
-    },
-    "loc": {},
-    "taggedUsers": [],
-    "comments": [],
-    "likedBy": [],
-    "hashTags": [],
-    "_id": "JlGb3"
   }
 ]

@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react"
 import { useSelector } from "react-redux"
 import { useNavigate, useParams } from "react-router-dom"
-import { storyService } from "../services/story.service.local"
+import { storyService } from "../services/story.service"
 
 export function StoryDetails(story, isStoryDetailsOpen, setIsStoryDetailsOpen) {
     const navigate = useNavigate()

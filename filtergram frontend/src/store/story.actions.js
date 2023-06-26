@@ -1,4 +1,4 @@
-import { storyService } from "../services/story.service.local.js";
+import { storyService } from "../services/story.service.js";
 import { store } from './store.js'
 import { ADD_STORY, REMOVE_STORY, SET_STORIES, UPDATE_STORY, TOGGLE_LIKE } from "./story.reducer.js";
 
