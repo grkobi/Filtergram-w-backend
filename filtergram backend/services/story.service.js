@@ -7,14 +7,13 @@ const COLLECTION_NAME = 'story'
 
 async function query(filterBy = {}) {
     try {
-        // const criteria = _buildCriteria(filterBy)
         const collection = await dbService.getCollection(COLLECTION_NAME)
         console.log('collection', collection)
         const stories = await collection.find().toArray()
 
         return stories
     } catch (err) {
-        console.error('cannot find stories', err)
+        console.error('cannot load stories from db', err)
         throw err
     }
 }
@@ -41,7 +40,7 @@ async function remove(storyId) {
         await collection.deleteOne({ _id: storyId })
         return storyId
     } catch (err) {
-        console.error(`cannot remove story ${storyId}`, err)
+        console.error(err, `cannot remove story id: ${storyId}`)
         throw err
     }
 }

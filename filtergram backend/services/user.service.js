@@ -13,7 +13,6 @@ module.exports = {
     checkLogin,
     getLoginToken,
     validateToken
-
 }
 
 

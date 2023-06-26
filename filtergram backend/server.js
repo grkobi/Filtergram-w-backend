@@ -5,39 +5,6 @@ const userService = require('./services/user.service')
 const cookieParser = require('cookie-parser')
 const path = require('path')
 const cors = require('cors')
-// const mongoose = require('mongoose')
-
-
-// // Connect to MongoDB
-// mongoose.connect('mongodb://localhost:27017/mydb')
-//     .then(() => console.log('Connected to MongoDB'))
-//     .catch(err => console.error('Failed to connect to MongoDB:', err));
-
-
-// // Create a schema for the Story model
-// const storySchema = new mongoose.Schema({
-//     // _id: String,
-//     txt: String,
-//     createdAt: String,
-//     img: {
-//         url: String,
-//         style: {
-//             filter: String
-//         }
-//     },
-//     userStories: String,
-//     likedBy: String,
-// });
-
-// const usersSchema = new mongoose.Schema({
-//     username: String,
-//     password: String,
-//     fullName: String,
-//     score:String,
-//     // _id: String
-// });
-
-// const Story = mongoose.model('Story', storySchema);
 
 // App Configuration
 const corsOptions = {
