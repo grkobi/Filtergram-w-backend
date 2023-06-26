@@ -1,0 +1,35 @@
+[
+  {
+    "vendor": "Susita-536",
+    "speed": 184,
+    "price": 5042,
+    "_id": "aPeGJ",
+    "owner": {
+      "_id": "u102",
+      "fullname": "Muki Ba",
+      "score": 10000
+    }
+  },
+  {
+    "vendor": "Porscheee",
+    "speed": 140,
+    "price": 85000,
+    "_id": "2c0PK",
+    "owner": {
+      "_id": "u102",
+      "fullname": "Muki Baba",
+      "score": 10000
+    }
+  },
+  {
+    "vendor": "Susita-175",
+    "speed": 168,
+    "price": 7247,
+    "_id": "5KRxf",
+    "owner": {
+      "_id": "u102",
+      "fullname": "Muki Baba",
+      "score": 10000
+    }
+  }
+]
