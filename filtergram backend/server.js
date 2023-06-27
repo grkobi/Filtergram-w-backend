@@ -45,13 +45,7 @@ app.post('/api/story', (req, res) => {
     // const loggedinUser = userService.validateToken(req.cookies.loginToken)
     // if (!loggedinUser) return res.status(401).send('Cannot add car')
     const story = req.body
-
-    // const car = {
-    //     vendor,
-    //     speed: +speed,
-    //     price: +price
-    // }
-    storyService.save(story)
+    storyService.add(story)
         .then((savedStory) => {
             res.send(savedStory)
         })
@@ -68,7 +62,7 @@ app.put('/api/story', (req, res) => {
     // if (!loggedinUser) return res.status(401).send('Cannot update car')
 
     const story = req.body
-    storyService.save(story)
+    storyService.update(story)
         .then((savedStory) => {
             res.send(savedStory)
         })
@@ -81,7 +75,7 @@ app.put('/api/story', (req, res) => {
 // Read - getById
 app.get('/api/story/:storyId', (req, res) => {
     const { storyId } = req.params
-    storyService.get(storyId)
+    storyService.getById(storyId)
         .then(story => res.send(story))
         .catch(err => res.status(403).send(err))
 })
@@ -90,7 +84,7 @@ app.get('/api/story/:storyId', (req, res) => {
 app.delete('/api/story/:storyId', (req, res) => {
     // const loggedinUser = userService.validateToken(req.cookies.loginToken)
     // if (!loggedinUser) return res.status(401).send('Cannot delete story')
-    console.log('req params11', req.params)
+    console.log('req params:', req.params)
     const { storyId } = req.params
     storyService.remove(storyId)
         .then(msg => {
