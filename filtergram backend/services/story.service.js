@@ -9,7 +9,7 @@ async function query(filterBy = {}) {
     try {
         const collection = await dbService.getCollection(COLLECTION_NAME)
         // console.log('collection', collection)
-        const stories = await collection.find().toArray()
+        const stories = await collection.find().sort( { createdAt : -1}).toArray()
         return stories
     } catch (err) {
         console.error('cannot load stories from db', err)

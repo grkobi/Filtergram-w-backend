@@ -13,24 +13,25 @@
 
 
 // Views
-@import "views/HomeIndex";
-@import "views/CommentList";
-@import "views/UserDetails";
+@import "views/_home-index";
+@import "views/_comment-list";
+@import "views/_user-details";
 
 // Components
-@import "cmps/AppHeader";
-@import "cmps/AppFooter";
-@import "cmps/UserMsg";
-@import "cmps/StoryPreview";
-@import "cmps/Navbar";
-@import "cmps/NavbarMobile";
-@import "cmps/StoryList";
-@import "cmps/Suggested";
-@import "cmps/EditImg";
-@import "cmps/story-edit";
-@import "cmps/Profile";
-@import "cmps/img-uploader";
-@import "cmps/img-edit";
+@import "cmps/_app-header";
+@import "cmps/_app-footer";
+@import "cmps/_user-msg";
+@import "cmps/_story-preview";
+@import "cmps/_navbar";
+@import "cmps/_navbar-mobile";
+@import "cmps/_story-list";
+@import "cmps/_suggested";
+// @import "cmps/EditImg";
+@import "cmps/_story-edit";
+@import "cmps/_profile";
+@import "cmps/_img-uploader";
+@import "cmps/_img-edit";
 @import "cmps/edit-story-title";
-@import "cmps/LoginSignup";
+@import "cmps/_login-signup";
 @import "cmps/grid";
+// @import "cmps/_story-details";
